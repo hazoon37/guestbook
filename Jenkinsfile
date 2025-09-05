@@ -90,7 +90,7 @@ pipeline {
                                         -d \
                                         -p 38080:80 \
                                         --name=guestbookapp \
-                                        -e MYSQL_IP=172.31.0.110 \
+                                        -e MYSQL_IP=52.79.98.182 \
                                         -e MYSQL_PORT=3306 \
                                         -e MYSQL_DATABASE=guestbook \
                                         -e MYSQL_USER=root \
